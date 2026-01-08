@@ -63,7 +63,7 @@ export const Hero = () => {
 
                 <p ref={subtitleRef} className="text-lg md:text-xl text-secondary max-w-2xl mx-auto mb-10 leading-relaxed">
                     Creative Technologist & Full Stack Engineer. <br className="hidden md:block" />
-                    Crafting cinematic digital experiences with code and motion.
+                    {/* Crafting cinematic digital experiences with code and motion. */}
                 </p>
 
                 <div ref={ctaRef} className="flex flex-col md:flex-row gap-6 justify-center items-center">

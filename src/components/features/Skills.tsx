@@ -1,11 +1,10 @@
 import { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 import {
-    FaJava, FaJs, FaHtml5, FaCss3Alt, FaDatabase, FaPython,
-    FaReact, FaNodeJs, FaGitAlt, FaAws, FaGithub,
-    FaHeart
+    FaJava, FaJs, FaHtml5, FaCss3Alt, FaPython,
+    FaReact, FaNodeJs, FaGitAlt, FaAws,
 } from 'react-icons/fa';
-import { SiSpringboot, SiTypescript, SiPostgresql, SiExpress, SiSpringsecurity, SiMongodb, SiDocker } from 'react-icons/si';
+import { SiSpringboot, SiPostgresql, SiExpress, SiSpringsecurity, SiMongodb, SiDocker } from 'react-icons/si';
 
 const skills = [
     { name: "Java", icon: FaJava, category: "Languages" },

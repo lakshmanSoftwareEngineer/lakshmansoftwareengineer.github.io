@@ -44,7 +44,7 @@ export const About = () => {
     useEffect(() => {
         const ctx = gsap.context(() => {
             const slides = gsap.utils.toArray('.about-slide');
-            const totalWidth = slides.length * 100;
+            // const totalWidth = slides.length * 100;
 
             gsap.to(slides, {
                 xPercent: -100 * (slides.length - 1),

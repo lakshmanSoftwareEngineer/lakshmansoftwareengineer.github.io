@@ -46,8 +46,9 @@ export const Header = () => {
             <div className="flex items-center gap-2">
                 <Magnetic>
                     <div className="text-xl font-bold font-display tracking-tighter cursor-pointer group">
-                        <span className="group-hover:text-accent transition-colors">KL</span>
-                        <span className="text-accent">.</span>
+                        <img draggable={false} style={{width:"30px",height:"30px",borderRadius:"50%"}} src="https://lh3.googleusercontent.com/a/ACg8ocLjDxyz04BSKAKI94waqj9xN67N1u_T2I14YtB-uhE4gV6IODo=s360-c-no" alt="" />
+                        {/* <span className="group-hover:text-accent transition-colors">KL</span>
+                        <span className="text-accent">.</span> */}
                     </div>
                 </Magnetic>
             </div>
